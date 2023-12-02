@@ -6,8 +6,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     vertical-align: baseline
 }
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap');
-font-family: 'Noto Serif SC', serif;
+
+
+
 html {
     line-height: 1
 }
@@ -88,7 +89,7 @@ a {
 }
 
 html {
-    background: #252525 url('/images/line-tile.png?1416136272') top left
+    background: url('/images/background.jpg') top left
 }
 
 body > div {
@@ -102,7 +103,7 @@ body > div > div {
 }
 
 .heading, body > header h1, h1, h2, h3, h4, h5, h6 {
-    font-family: "Noto Serif SC","PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
+    font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
 }
 
 .sans, body > header h2, article header p.meta, article > footer, #content .blog-index footer, html .gist .gist-file .gist-meta, #blog-archives a.category, #blog-archives time, aside.sidebar section, body > footer {
@@ -110,7 +111,7 @@ body > div > div {
 }
 
 .serif, body, #content .blog-index a[rel=full-article] {
-    font-family: "Noto Serif SC","PT Serif", Georgia, Times, "Times New Roman", serif
+    font-family: "PT Serif", Georgia, Times, "Times New Roman", serif
 }
 
 .mono, pre, code, tt, p code, li code {
@@ -118,15 +119,14 @@ body > div > div {
 }
 
 body > header h1 {
-    font-size: 2.2em;
-    font-family: "Noto Serif SC","PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
-    font-weight: normal;
+    font-size: 1.4em;
+    font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
     line-height: 1.2em;
     margin-bottom: 0.6667em
 }
 
 body > header h2 {
-    font-family: "Noto Serif SC","PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
+    font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
 }
 
 body {
@@ -135,7 +135,7 @@ body {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 1.4em;
     line-height: 1.2em
 }
 
@@ -145,7 +145,7 @@ h1 {
     }
 
     h1 {
-        font-size: 2.6em;
+        font-size: 2.2em;
         line-height: 1.2em
     }
 }
@@ -704,7 +704,6 @@ body.sidebar-footer .toggle-sidebar {
 }
 
 body > header {
-    background: #333
 }
 
 body > header h1 {
