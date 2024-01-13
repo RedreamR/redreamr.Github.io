@@ -1,0 +1,15 @@
+{
+
+    Versions:[
+        {
+            majorVersion:"Void",
+            minorVersion:"Sirin",
+            verID:10,
+            type:"roll",
+            time:1000,
+            info:"此版本增加了两个自定义选项，同时修复了当配置文件不存在时无法回退到默认配置的bug。",
+            link:"http://bot.sxyhl.tk/download.php?user=admin&name=d429cecc63c5d36a265db1c3299236df&type=zip"
+        }
+    ]
+
+}
